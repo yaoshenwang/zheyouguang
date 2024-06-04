@@ -7,5 +7,11 @@
   },
   "docs/about/about.qmd": {
     "about.html": "649fcbf5"
+  },
+  "errror.qmd": {
+    "errror.html": "a882321f"
+  },
+  "error.qmd": {
+    "error.html": "4891a000"
   }
 }
