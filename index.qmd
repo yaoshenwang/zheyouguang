@@ -13,7 +13,7 @@ hide-description: true
 ::: {.hero-text}
 # <span class="gradient-text">这有光计划</span>
 
-### 创造适合自学的数理教育资源
+### 适合自学的数理资源
 
 :::
 :::
