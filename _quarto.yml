@@ -10,10 +10,10 @@ website:
       - href: docs/about/about.qmd
         text: 关于我们
   page-footer:
-    center:
-    - text: "杭州这有光文化科技有限公司"
-    - text: "浙ICP备2024092167号"
-      href: "https://beian.miit.gov.cn/"
+    center: |
+     杭州这有光文化科技有限公司
+
+     [浙ICP备2024092167号](https://beian.miit.gov.cn/)
 
 format:
   html:
