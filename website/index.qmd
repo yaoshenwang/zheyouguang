@@ -6,7 +6,7 @@ toc: false
 css: index.css
 editor: source
 description: | 
-  An open source technical publishing system for creating beautiful articles, websites, blogs, books, slides, and more. Supports Python, R, Julia, and JavaScript.
+  适合自学的数理资源
 hide-description: true
 ---
 ::: {.hero-banner}
@@ -22,8 +22,8 @@ hide-description: true
 
 <div class="buttons">
   <a href="#" class="button button-primary">关于我们</a>
-  <a href="#" class="button button-secondary">高中资源</a>
-  <a href="#" class="button button-secondary">大学资源</a>
+  <a href="#" class="button button-secondary">高中系列</a>
+  <a href="#" class="button button-secondary">大学系列</a>
 </div>
 
 ::: 
@@ -32,8 +32,8 @@ hide-description: true
 ::: {.features}
 
 ::: {.feature}
-### Dynamic Documents
-Generate dynamic output using Python, R, Julia, and Observable. Create reproducible documents that can be regenerated when underlying assumptions or data change.
+### 自学友好
+为自学而生，我们努力让每句话都做到清晰易读
 
 ::: {.learn-more}
 [Learn more »](/docs/computations/python.qmd)
