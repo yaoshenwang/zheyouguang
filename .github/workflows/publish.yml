@@ -17,25 +17,30 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render
+      - name: Render website
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: website
+      
+      - name: Render calculus-1-concpet
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: calculus-1-concpet
+      
+      - name: Publish calculus-1-concept to Aliyun OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+          accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
+          accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
+          bucket: calculus-1-concept
+          endpoint: oss-cn-hangzhou.aliyuncs.com
+          folder: calculus-1-concept/_book
 
-      - name: Publish to Aliyun OSS
+      - name: Publish website to Aliyun OSS
         uses: fangbinwei/aliyun-oss-website-action@v1
         with:
           accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
           accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
           bucket: zheyg
-          # use your own endpoint
           endpoint: oss-cn-hangzhou.aliyuncs.com
           folder: website/_site
-
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-          path: website
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
