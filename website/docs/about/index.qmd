@@ -1,8 +1,15 @@
 ---
-title: "About"
+title: "关于我们"
+subtitle: "“这有光”在做什么？我们的内容有什么特点？"
+format:
+  html
+page-layout: full
+toc: false
+anchor-sections: false
+editor: source
 ---
 
-About this site
+## “这有光”是谁？
 
 ```{python}
 #| label: fig-polar

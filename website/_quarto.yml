@@ -7,15 +7,39 @@ website:
     left:
       - href: index.qmd
         text: 主页
-      - href: docs/about/about.qmd
+      - href: docs/about/index.qmd
         text: 关于我们
       - href: https://calculus-1-concept.zheyg.com
         text: 微积分概念
+      - href: https://projectc.feishu.cn/docx/V0ZxdcUAVoEMGFxMzr5czQUinTb
+        text: 联系我们
+
   page-footer:
     center: |
      杭州这有光文化科技有限公司
 
      [浙ICP备2024092167号](https://beian.miit.gov.cn/)
+
+  sidebar:
+    - id: about
+      title: "关于我们"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - docs/about/index.qmd
+        - text: "自学友好"
+          href: docs/about/hello/
+        - text: "示例讲解"
+          href: docs/about/computations/
+        - text: "电子格式"
+          href: docs/about/authoring/
+        - text: "开源协议"
+          href: docs/about/authoring/
+        - text: "交互学习"
+          href: docs/about/authoring/
+        - text: "内容迭代"
+          href: docs/about/authoring/
 
 format:
   html:
