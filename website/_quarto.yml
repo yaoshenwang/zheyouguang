@@ -9,6 +9,8 @@ website:
         text: 主页
       - href: docs/about/about.qmd
         text: 关于我们
+      - href: https://calculus-1-concept.zheyg.com
+        text: 微积分概念
   page-footer:
     center: |
      杭州这有光文化科技有限公司
