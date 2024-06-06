@@ -22,10 +22,10 @@ jobs:
         with:
           path: website
       
-      - name: Render calculus-1-concpet
+      - name: Render calculus-1-concept
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: calculus-1-concpet
+          path: calculus-1-concept
       
       - name: Publish calculus-1-concept to Aliyun OSS
         uses: fangbinwei/aliyun-oss-website-action@v1
