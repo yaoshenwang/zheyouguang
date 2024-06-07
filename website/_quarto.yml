@@ -9,7 +9,7 @@ website:
         text: 主页
       - href: docs/about/index.qmd
         text: 关于我们
-      - href: https://calculus-1-concept.zheyg.com
+      - href: calculus-1-concept/index.html
         text: 微积分概念
       - href: https://projectc.feishu.cn/docx/V0ZxdcUAVoEMGFxMzr5czQUinTb
         text: 联系我们
