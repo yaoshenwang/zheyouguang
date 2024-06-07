@@ -23,11 +23,12 @@
   {
     "objectID": "docs/about/index.html",
     "href": "docs/about/index.html",
-    "title": "关于我们",
+    "title": "这有光计划",
     "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "text": "这有光致力于公平地提供开源优质的教育资源。\n当这些美好的词汇落在教育领域当中的时候，每个人都会产生不同的理解。因此，下面我们将提出几个教育领域的具体指标，以此展示我们对这些使命的看法。",
     "crumbs": [
-      "关于我们"
+      "关于我们",
+      "这有光计划"
     ]
   },
   {
@@ -35,9 +36,85 @@
     "href": "docs/about/index.html#这有光是谁",
     "title": "关于我们",
     "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "text": "这有光计划的愿景是，公平地提供开源、优质的教育资源。",
     "crumbs": [
       "关于我们"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#这有光计划的愿景",
+    "href": "docs/about/index.html#这有光计划的愿景",
+    "title": "关于我们",
+    "section": "",
+    "text": "这有光计划的愿景是，公平地提供开源、优质的教育资源。",
+    "crumbs": [
+      "关于我们"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#愿景",
+    "href": "docs/about/index.html#愿景",
+    "title": "这有光计划",
+    "section": "",
+    "text": "我们的愿景是，公平地提供开源、优质的教育资源。",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#使命",
+    "href": "docs/about/index.html#使命",
+    "title": "这有光计划",
+    "section": "",
+    "text": "这有光致力于公平地提供开源优质的教育资源。\n当这些美好的词汇落在教育领域当中的时候，每个人都会产生不同的理解。因此，下面我们将提出几个教育领域的具体指标，以此展示我们对这些使命的看法。",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#公平",
+    "href": "docs/about/index.html#公平",
+    "title": "这有光计划",
+    "section": "2. 公平",
+    "text": "2. 公平\n\n2.1 重视机会平等\n我们认为，每个用户都有机会获取到平等的教育资源，并不应该因出身、贫富等因素而有所区别。\n因此，这有光计划在后续的商业化运行中，会尽可能避免做以下的事情：\n\n避免通过卖付费课程等方式，只向付费用户提供独占的教学资源，而不给免费用户任何获取资源的方法。\n避免不会通过区分用户（例如成绩、学历）的方式，而只给一部分人学习内容，却不给另一部分人提供。\n\n这并不是说所有人学习的内容都必须一模一样。个性化学习是必然的方向，但是要保证用户有自由选择“框定资源”以外的学习内容的权利。\n\n\n在重视机会平等的同时，我们也会尽可能避免直接使用标准化考试的分数作为衡量公平的指标，包括高中毕业生的高考成绩、本科生的GPA等等。因为标准化考试的分数提升，既依赖每个学生过往的学习环境，也依赖学生自己对考试题目的训练。\n这有光更期待的是，每个人都有机会获取到公平的教育资源。\n\n\n2.2",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#开源",
+    "href": "docs/about/index.html#开源",
+    "title": "这有光计划",
+    "section": "3. 开源",
+    "text": "3. 开源\n开源是每个人对于“开源”都有不同的理解。\n\n开源的定义",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#公平重视机会平等",
+    "href": "docs/about/index.html#公平重视机会平等",
+    "title": "这有光计划",
+    "section": "2. 公平：重视机会平等",
+    "text": "2. 公平：重视机会平等\n我们认为，每个用户都有机会获取到平等的教育资源，并不应该因出身、贫富等因素而有所区别。\n因此，这有光计划在后续的商业化运行中，会尽可能避免做以下的事情：\n\n避免通过卖付费课程等方式，只向付费用户提供独占的教学资源，而不给免费用户任何获取资源的方法。\n避免不会通过区分用户（例如成绩、学历）的方式，而只给一部分人学习内容，却不给另一部分人提供。\n\n这并不是说所有人学习的内容都必须一模一样。个性化学习是必然的方向，但是要保证用户有自由选择“框定资源”以外的学习内容的权利。\n\n\n在重视机会平等的同时，我们也会尽可能避免直接使用标准化考试的分数作为衡量公平的指标，包括高中毕业生的高考成绩、本科生的GPA等等。因为标准化考试的分数提升，既依赖每个学生过往的学习环境，也依赖学生自己对考试题目的训练。\n这有光更期待的是，每个人都有机会获取到公平的教育资源。",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
+    ]
+  },
+  {
+    "objectID": "docs/about/index.html#开源可协作可迭代",
+    "href": "docs/about/index.html#开源可协作可迭代",
+    "title": "这有光计划",
+    "section": "3. 开源：可协作可迭代",
+    "text": "3. 开源：可协作可迭代\n这有光希望使用设计“开源软件”的思路，来创造新的教育资源。\n待续。",
+    "crumbs": [
+      "关于我们",
+      "这有光计划"
     ]
   }
 ]

@@ -7,10 +7,10 @@ website:
     left:
       - href: index.qmd
         text: 主页
-      - href: docs/about/index.qmd
-        text: 关于我们
       - href: calculus-1-concept/index.html
         text: 微积分概念
+      - href: docs/about/index.qmd
+        text: 关于我们
       - href: https://projectc.feishu.cn/docx/V0ZxdcUAVoEMGFxMzr5czQUinTb
         text: 联系我们
 
@@ -29,17 +29,17 @@ website:
       contents:
         - docs/about/index.qmd
         - text: "自学友好"
-          href: docs/about/hello/
+          href: docs/about/self-study.qmd
         - text: "示例讲解"
-          href: docs/about/computations/
+          href: docs/about/example.qmd
         - text: "电子格式"
-          href: docs/about/authoring/
+          href: docs/about/tech.qmd
         - text: "开源协议"
-          href: docs/about/authoring/
+          href: docs/about/opensource.qmd
         - text: "交互学习"
-          href: docs/about/authoring/
+          href: docs/about/interactive.qmd
         - text: "内容迭代"
-          href: docs/about/authoring/
+          href: docs/about/changing.qmd
 
 format:
   html:

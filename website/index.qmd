@@ -6,14 +6,14 @@ toc: false
 css: index.css
 editor: source
 description: | 
-  适合自学的数理资源
+  适合自学的学习资源
 hide-description: true
 ---
 ::: {.hero-banner}
 ::: {.hero-text}
 # <span class="gradient-text">这有光计划</span>
 
-### 适合自学的数理资源
+### 适合自学的学习资源
 
 :::
 :::
@@ -21,8 +21,8 @@ hide-description: true
 ::: {.content-block}
 
 <div class="buttons">
-  <a href="#" class="button button-primary">关于我们</a>
-  <a href="#" class="button button-secondary">高中系列</a>
+  <a href="docs/about/index.qmd" class="button button-primary">关于我们</a>
+  <!-- <a href="#" class="button button-secondary">高中系列</a> -->
   <a href="#" class="button button-secondary">大学系列</a>
 </div>
 
@@ -33,56 +33,56 @@ hide-description: true
 
 ::: {.feature}
 ### 自学友好
-为自学而生，我们努力让每句话都做到清晰易读、每个概念一学就懂
+为自学而生，我们努力让每句话都做到清晰易读，让每个概念**一学就懂**
 
 ::: {.learn-more}
-[Learn more »](/docs/computations/python.qmd)
+[了解更多 »](docs/about/self-study.qmd)
 :::
 :::
 
 ::: {.feature}
 ### 示例讲解
-对于每一个新出现的概念，我们都会尽可能提供多种正例反例，以便同学彻底理解概念的所有情形
+我们都会事无巨细地提供各种正例反例，确保你结合实际场景理解概念
 
 ::: {.learn-more}
-[Learn more »](/docs/output-formats/all-formats.qmd)
+[了解更多 »](docs/about/example.qmd)
 :::
 :::
 
 ::: {.feature}
 ### 电子格式
-内容由markdown 以及 python 编写，这意味着内容可以轻松转写为PDF、Word、HTML、ePub等多种电子格式
+资源可以轻松转写为PDF、Word、HTML、ePub等多种电子格式
 
 ::: {.learn-more}
-[Learn more »](/docs/authoring/markdown-basics.qmd)
+[了解更多 »](docs/about/tech.qmd)
 :::
 :::
 
 ::: {.feature}
 ### 开源共享
-我们全部学习资源的源代码均托管在 github 上，这意味着开源社区可以参与到内容编辑之中，任何人都可以做出贡献
+我们的源代码均托管在 github 上，这意味着任何人都可以做出贡献
 
 ::: {.learn-more}
-[Learn more »](/docs/tools/jupyter-lab.qmd)
+[了解更多 »](docs/about/opensource.qmd)
 :::
 :::
 
 ::: {.feature}
 ### 交互学习
-我们使用课件、题目等多种方式，让学习者参与到课程的交互当中
+我们使用题目交互、课件交互等多种方式，让你亲手实践所学知识
 
 ::: {.learn-more}
-[Learn more »](/docs/interactive/)
+[了解更多 »](docs/about/interactive.qmd)
 :::
 :::
 
 ::: {.feature}
 ### 内容迭代
-相比于传统教科书，这有光会实时更新内容，快速迭代优质的学习资源
+相比于传统教科书，这有光强调**版本迭代**，会实时更新内容
 
 
 ::: {.learn-more}
-[Learn more »](/docs/websites/)
+[了解更多 »](docs/about/changing.qmd)
 :::
 :::
 
