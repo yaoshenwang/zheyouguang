@@ -34,7 +34,7 @@ jobs:
       - name: Move and Rename Rendered calculus-1-concept
         run: |
           mv calculus-1-concept/_book calculus-1-concept/calculus-1-concept
-          mv calculus-1-concept/calculus-1-concept website/
+          mv calculus-1-concept/calculus-1-concept website/_site
 
       - name: Publish website to Aliyun OSS
         uses: fangbinwei/aliyun-oss-website-action@v1
